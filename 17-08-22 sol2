@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+	int i,a=0,b=1,c;
+	c=a+b;
+	printf("hibonacci series: %d %d ",a,b);
+	for(i=3;c<=100;++i)
+	{
+		printf("%d ",c);
+		a=b;
+		b=c;
+		c=a+b;
+	}
+}
